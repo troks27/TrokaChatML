@@ -1,83 +1,37 @@
-{\rtf1\ansi\ansicpg1252\cocoartf2761
-\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 Helvetica;\f1\froman\fcharset0 TimesNewRomanPSMT;\f2\fswiss\fcharset0 Helvetica-Bold;
-}
-{\colortbl;\red255\green255\blue255;\red0\green0\blue0;\red251\green0\blue7;}
-{\*\expandedcolortbl;;\cssrgb\c0\c0\c0;\cssrgb\c100000\c0\c0;}
-\margl1440\margr1440\vieww11520\viewh8400\viewkind0
-\deftab720
-\pard\pardeftab720\sa213\qc\partightenfactor0
+PENN ACADEMIC SOFTWARE LICENSE AGREEMENT FOR "TrokaChatML"
 
-\f0\fs29\fsmilli14667 \cf0 \expnd0\expndtw0\kerning0
-PENN ACADEMIC SOFTWARE LICENSE AGREEMENT FOR\
-"\cf3  TrokaChatML\cf0 "\
-\pard\pardeftab720\sa213\partightenfactor0
-\cf0 \'a0\
-\pard\pardeftab720\li960\fi-960\partightenfactor0
-\cf0 1.
-\f1\fs18\fsmilli9333 \'a0\'a0\'a0\'a0 
-\f0\fs29\fsmilli14667 This is a legal agreement (\'93Agreement\'94) between ______________________ (\'93RECIPIENT\'94 or \'93you\'94), and THE TRUSTEES OF THE UNIVERSITY OF PENNSYLVANIA (\'93PENN\'94).\'a0 Penn controls \cf3 \'93TrokaChatML\'94\cf0  which was developed by Michael Troka, Dana Graves and Michael Gonzalez at Penn. This Agreement shall be effective as of the date the Software is downloaded (\'93Effective Date\'94).\
-2.
-\f1\fs18\fsmilli9333 \'a0\'a0\'a0\'a0 
-\f0\fs29\fsmilli14667 By accepting, receiving, and using Software, including any accompanying information, materials or manuals you are agreeing to be bound by the terms of this Agreement.\'a0\
-3.
-\f1\fs18\fsmilli9333 \'a0\'a0\'a0\'a0 
-\f0\fs29\fsmilli14667 PENN grants to RECIPIENT a royalty-free, nonexclusive, and nontransferable license to copy, reproduce, perform, display, and make derivative works of the Software furnished hereunder, upon the terms and conditions set out below.\
-4.
-\f1\fs18\fsmilli9333 \'a0\'a0\'a0\'a0 
-\f0\fs29\fsmilli14667 RECIPIENT agrees to use the Software solely for internal research or non-commercial purposes and shall not distribute or transfer the Software to another location or to any other person without prior written permission from PENN. Nothing in this license grants any rights for commercial use.\
-5.
-\f1\fs18\fsmilli9333 \'a0\'a0\'a0\'a0 
-\f0\fs29\fsmilli14667 RECIPIENT is encouraged to provide feedback on the Software or any updates or bug fixes back to the laboratory of\cf3  Dana Graves at the University of Pennsylvania School of Dental Medicine.\cf0 \
-6.
-\f1\fs18\fsmilli9333 \'a0\'a0\'a0\'a0 
-\f0\fs29\fsmilli14667 RECIPIENT acknowledges that the Software is still in the development stage and that it is being supplied to Recipient 
-\f2\b as is
-\f0\b0 , 
-\f2\b with all faults and without any accompanying documentation, services, support or improvements from PENN.
-\f0\b0 \'a0\
-7.
-\f1\fs18\fsmilli9333 \'a0\'a0\'a0\'a0 
-\f0\fs29\fsmilli14667 PENN does not grant any licenses under any PENN patent or patent application by this Agreement. The rights and licenses granted in this Agreement are limited to the scope expressly granted.\'a0 Accordingly, except for the rights expressly granted under this Agreement, no right, title, or interest of any nature whatsoever is granted whether by implication, estoppel, reliance, or otherwise, by Penn to Recipient.\'a0 All rights with respect to any know-how, patent or other intellectual property rights that are not specifically granted herein are reserved to the owner thereof.\
-8.
-\f1\fs18\fsmilli9333 \'a0\'a0\'a0\'a0 
-\f0\fs29\fsmilli14667 Title and copyright to the Software and any derivatives and any associated documentation shall at all times remain with PENN, and RECIPIENT agrees to preserve same.\
-9.
-\f1\fs18\fsmilli9333 \'a0\'a0\'a0\'a0 
-\f0\fs29\fsmilli14667 RECIPIENT agrees not to reverse engineer, reverse assemble, reverse compile decompile, disassemble, or otherwise attempt to re-create the source code for the Software. RECIPIENT acknowledges that any programs created based on the Software will be considered a derivative of Software and owned by PENN.\
-10.
-\f1\fs18\fsmilli9333 \'a0 
-\f0\fs29\fsmilli14667 RECIPIENT may not further distribute Software without express written permission of PENN; however, if permission to transfer the Software is given, RECIPIENT warrants that RECIPIENT will not remove or export any part of the Software from the United States except in full compliance with all United States export regulations and other applicable laws.\
-11.
-\f1\fs18\fsmilli9333 \'a0 
-\f0\fs29\fsmilli14667 RECIPIENT will use the Software in compliance with all applicable laws, policies and regulations including, but not limited to, any approvals, informed consent and patient confidentiality principles.\
+1. This is a legal agreement ("Agreement") between ______________________ ("RECIPIENT" or "you"), and THE TRUSTEES OF THE UNIVERSITY OF PENNSYLVANIA ("PENN"). Penn controls "TrokaChatML," which was developed by Michael Troka, Dana Graves, and Michael Gonzalez at Penn. This Agreement shall be effective as of the date the Software is downloaded ("Effective Date").
 
-\f2\b 12.
-\f1\b0\fs18\fsmilli9333 \'a0 
-\f2\b\fs29\fsmilli14667 PENN MAKES NO REPRESENTATIONS AND EXTENDS NO WARRANTIES OF ANY KIND, EITHER EXPRESS OR IMPLIED OTHER THAN ARE SET OUT IN THIS AGREEMENT.
-\f0\b0 \
+2. By accepting, receiving, and using the Software, including any accompanying information, materials, or manuals, you agree to be bound by the terms of this Agreement.
 
-\f2\b 13.
-\f1\b0\fs18\fsmilli9333 \'a0 
-\f2\b\fs29\fsmilli14667 THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS, CONTRIBUTORS, AND THE TRUSTEES OF THE UNIVERSITY OF PENNSYLVANIA "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT OWNER, CONTRIBUTORS OR THE TRUSTEES OF THE UNIVERSITY OF PENNSYLVANIA BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
-\f0\b0 \
-14.
-\f1\fs18\fsmilli9333 \'a0 
-\f0\fs29\fsmilli14667 RECIPIENT will indemnify, hold harmless, and defend PENN against any claim of any kind arising out of or related to the exercise of any rights granted under this Agreement or the breach of this Agreement by RECIPIENT.\
-15.
-\f1\fs18\fsmilli9333 \'a0 
-\f0\fs29\fsmilli14667 This Agreement may be terminated by either party upon thirty (30) days written notice to the other party.\'a0 In the event of termination, RECIPIENT shall destroy or return immediately all Software and all copies thereof to PENN.\
-\pard\pardeftab720\li960\fi-960\sa213\partightenfactor0
-\cf0 16.
-\f1\fs18\fsmilli9333 \'a0 
-\f0\fs29\fsmilli14667 The parties to this document agree that a copy of the original signature (including an electronic copy) may be used for any and all purposes for which the original signature may have been used.\'a0 The parties further waive any right to challenge the admissibility or authenticity of this document in a court of law based solely on the absence of an original signature.\
-\pard\pardeftab720\li960\fi-960\sa320\qj\partightenfactor0
-\cf0 17.
-\f1\fs18\fsmilli9333 \'a0 
-\f0\fs29\fsmilli14667 Any notice, request, approval or consent required or permitted to be given under this Agreement shall be in writing and directed to a party at its address shown below or such other address as such party shall have last given by notice to the other party.\'a0 A notice will be deemed received: if delivered personally, on the date of delivery; if mailed, five (5) days after deposit in the United States mail; if sent via courier, one (1) business day after deposit with the courier service.
-\f1 \
-\pard\pardeftab720\li960\fi-960\sa213\partightenfactor0
+3. PENN grants to RECIPIENT a royalty-free, nonexclusive, and nontransferable license to copy, reproduce, perform, display, and create derivative works of the Software furnished hereunder, upon the terms and conditions set out below.
 
-\f0 \cf0 18.
-\f1\fs18\fsmilli9333 \'a0 
-\f0\fs29\fsmilli14667 Governing Law.\'a0 This Agreement shall be governed by and interpreted in accordance with the laws of the Commonwealth of Pennsylvania, excluding application of any conflict of laws principles that would require application of the law of a jurisdiction outside of the Commonwealth of Pennsylvania.\
-}
+4. RECIPIENT agrees to use the Software solely for internal research or non-commercial purposes and shall not distribute or transfer the Software to another location or to any other person without prior written permission from PENN. Nothing in this license grants any rights for commercial use.
+
+5. RECIPIENT is encouraged to provide feedback on the Software or any updates or bug fixes back to the laboratory of Dana Graves at the University of Pennsylvania School of Dental Medicine.
+
+6. RECIPIENT acknowledges that the Software is still in the development stage and is being supplied "as is," with all faults and without any accompanying documentation, services, support, or improvements from PENN.
+
+7. PENN does not grant any licenses under any PENN patent or patent application by this Agreement. The rights and licenses granted in this Agreement are limited to the scope expressly granted. Except for the rights expressly granted under this Agreement, no right, title, or interest of any nature whatsoever is granted, whether by implication, estoppel, reliance, or otherwise, by Penn to Recipient. All rights with respect to any know-how, patent, or other intellectual property rights that are not specifically granted herein are reserved to the owner thereof.
+
+8. Title and copyright to the Software and any derivatives and any associated documentation shall at all times remain with PENN, and RECIPIENT agrees to preserve the same.
+
+9. RECIPIENT agrees not to reverse engineer, reverse assemble, reverse compile, decompile, disassemble, or otherwise attempt to re-create the source code for the Software. RECIPIENT acknowledges that any programs created based on the Software will be considered a derivative of the Software and owned by PENN.
+
+10. RECIPIENT may not further distribute the Software without express written permission from PENN; however, if permission to transfer the Software is given, RECIPIENT warrants that RECIPIENT will not remove or export any part of the Software from the United States except in full compliance with all United States export regulations and other applicable laws.
+
+11. RECIPIENT will use the Software in compliance with all applicable laws, policies, and regulations, including but not limited to any approvals, informed consent, and patient confidentiality principles.
+
+12. PENN MAKES NO REPRESENTATIONS AND EXTENDS NO WARRANTIES OF ANY KIND, EITHER EXPRESS OR IMPLIED, OTHER THAN AS SET OUT IN THIS AGREEMENT.
+
+13. THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS, CONTRIBUTORS, AND THE TRUSTEES OF THE UNIVERSITY OF PENNSYLVANIA "AS IS," AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING BUT NOT LIMITED TO THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE, ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT OWNER, CONTRIBUTORS, OR THE TRUSTEES OF THE UNIVERSITY OF PENNSYLVANIA BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING BUT NOT LIMITED TO PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+
+14. RECIPIENT will indemnify, hold harmless, and defend PENN against any claim of any kind arising out of or related to the exercise of any rights granted under this Agreement or the breach of this Agreement by RECIPIENT.
+
+15. This Agreement may be terminated by either party upon thirty (30) days' written notice to the other party. In the event of termination, RECIPIENT shall destroy or return immediately all Software and all copies thereof to PENN.
+
+16. The parties to this document agree that a copy of the original signature (including an electronic copy) may be used for any and all purposes for which the original signature may have been used. The parties further waive any right to challenge the admissibility or authenticity of this document in a court of law based solely on the absence of an original signature.
+
+17. Any notice, request, approval, or consent required or permitted to be given under this Agreement shall be in writing and directed to a party at its address shown below or such other address as such party shall have last given by notice to the other party. A notice will be deemed received: if delivered personally, on the date of delivery; if mailed, five (5) days after deposit in the United States mail; if sent via courier, one (1) business day after deposit with the courier service.
+
+18. Governing Law. This Agreement shall be governed by and interpreted in accordance with the laws of the Commonwealth of Pennsylvania, excluding the application of any conflict of laws principles that would require application of the law of a jurisdiction outside of the Commonwealth of Pennsylvania.
