@@ -1,0 +1,15 @@
+Package: TrokaChatML
+Title: TrokaChatML: Analysis Pipeline for Single-Cell RNAseq to Drug Target Discovery
+Version: 0.0.0.9000
+Authors@R: c(
+    person("Michael", "Troka", email = "troks27@upenn.edu", role = c("aut", "cre"),
+           comment = c(ORCID = "0009-0000-1510-963X")),
+    person("Dana", "Graves", role = "aut", comment = c(affiliation = "University of Pennsylvania")),
+    person("Michael", "Gonzalez", role = "aut", comment = c(affiliation = "University of Pennsylvania"))
+)
+Description: TrokaChatML is an integrated computational framework designed for analyzing single-cell RNA sequencing (scRNAseq) data to uncover perturbed cell--cell communications and identify potential therapeutic targets. The pipeline combines differential expression analysis, machine learning-based noise filtration and perturbed communication prediction, tensor decomposition, and knowledge graph--driven drug target discovery, providing a robust and scalable approach from raw data processing to actionable biological insights.
+License: Custom (see LICENSE file for details)
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.1
+

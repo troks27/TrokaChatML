@@ -1,0 +1,26 @@
+{
+    "id": "EFE50AB6",
+    "path": "/Volumes/Samsung Type-C Media 1/TrokaChatML/R/R/functions.R",
+    "project_path": "R/R/functions.R",
+    "type": "r_source",
+    "hash": "0",
+    "contents": "",
+    "dirty": false,
+    "created": 1740542634015.0,
+    "source_on_save": false,
+    "relative_order": 2,
+    "properties": {
+        "source_window_id": "",
+        "Source": "Source",
+        "cursorPosition": "1022,15",
+        "scrollLine": "1010"
+    },
+    "folds": "0|56|28|0|\n30|124|308|0|\n312|61|661|0|\n670|51|887|0|\n",
+    "lastKnownWriteTime": 1740538919,
+    "encoding": "UTF-8",
+    "collab_server": "",
+    "source_window": "",
+    "last_content_update": 1740542641690,
+    "read_only": false,
+    "read_only_alternatives": []
+}
