@@ -332,7 +332,7 @@ TrokaChat.DEG <- function(object, samples, control_condition, shortidents, filep
   }
   
   # Construct the full file path using the package's internal directory
-  file_path <- system.file("ligand_receptor_db", file_name, package = "TrokaChat")
+  file_path <- system.file("ligand_receptor_db", file_name, package = "TrokaChatML:")
   if (file_path == "") {
     stop("Ligand-receptor database file not found in the package.")
   }
