@@ -1,3 +1,4 @@
+#' @export
 TrokaChat_folder_structure <- function(main_directory) {
   # Define the folder names
   folders <- c("csv1", "DEG Output", "DEG Cleaned", "Noise Model", "cell_cell comm final",
@@ -27,7 +28,7 @@ TrokaChat_folder_structure <- function(main_directory) {
     }
   }
 }
-
+#' @export
 perform_communication_analysis <- function(seurat_obj, overall_list, n_permutations, output_dir, clusters_col, sample_col) {
   library(dplyr)
   library(pbapply)
@@ -307,7 +308,7 @@ perform_communication_analysis <- function(seurat_obj, overall_list, n_permutati
   
   return(z_p_values_adjusted)
 }
-
+#' @export
 TrokaChat.DEG <- function(object, samples, control_condition, shortidents, filepath, export_folder_1,
                           clusters, sample_clus, cluster_range, sample_species,
                           cluster_pct_thresh, DefaultAssay) {
@@ -660,7 +661,7 @@ TrokaChat.DEG <- function(object, samples, control_condition, shortidents, filep
   }
   
 }
-
+#' @export
 TrokaChat.DEG.nulldist <- function(object,
                                    shortidents,
                                    control_condition,
@@ -886,7 +887,7 @@ TrokaChat.DEG.nulldist <- function(object,
     }
   }
 }
-
+#' @export
 create_cluster_mapping_from_seurat <- function(seurat_obj, cluster_num_col, cluster_name_col) {
   mapping <- seurat_obj@meta.data %>%
     dplyr::select(all_of(cluster_num_col), all_of(cluster_name_col)) %>%
@@ -902,7 +903,7 @@ create_cluster_mapping_from_seurat <- function(seurat_obj, cluster_num_col, clus
   
   return(mapping)
 }
-
+#' @export
 prepare_data <- function(file_path, mapping) {
   
   columns_to_remove <- c("Pathway Label", "source_target", "source_ligand", "target_receptor", 
@@ -926,7 +927,7 @@ prepare_data <- function(file_path, mapping) {
   
   return(result)
 }
-
+#' @export
 process_and_create_tensor <- function(result, tensor_data_file, tensor_dim_file) {
   
   # Helper function to count zeros and non-zeros in the tensor
@@ -1017,7 +1018,7 @@ process_and_create_tensor <- function(result, tensor_data_file, tensor_dim_file)
   # Return both the tensor and mode_names in a list
   return(list(tensor = tensor, mode_names = mode_names))
 }
-
+#' @export
 load_and_map_factors <- function(dir_path, num_modes = 4, factor_prefix = "factor_", mapping_prefix = "mapping_") {
   # Initialize lists to store factors and mappings
   factors <- list()
@@ -1047,7 +1048,7 @@ load_and_map_factors <- function(dir_path, num_modes = 4, factor_prefix = "facto
   # Return both the mapped factors and the CP-like result
   return(list(factors_mapped = factors_mapped, cp_like_result = cp_like_result))
 }
-
+#' @export
 generate_and_export_heatmaps <- function(factors_mapped, mode_names, mode_labels, cluster_mapping, output_dir, heatmap_sizes = NULL) {
   # Create the output directory if it doesn't exist
   if (!dir.exists(output_dir)) {
@@ -1154,7 +1155,7 @@ generate_and_export_heatmaps <- function(factors_mapped, mode_names, mode_labels
     dev.off()
   }
 }
-
+#' @export
 process_ligand_receptor_factors <- function(factors_mapped, mode_names, species, output_dir, significant_data_file = NULL) {
   # Standardize species input and validate
   species <- tolower(species)
@@ -1267,7 +1268,7 @@ process_ligand_receptor_factors <- function(factors_mapped, mode_names, species,
     cat("significant_data_file is NULL. Skipping processing.\n")
   }
 }
-
+#' @export
 generate_factor_networks <- function(excel_file_path, species, kg_dir) {
 
   # Standardize species input
@@ -1359,7 +1360,7 @@ generate_factor_networks <- function(excel_file_path, species, kg_dir) {
   # Return invisible NULL to indicate the function’s side effect
   invisible(NULL)
 }
-
+#' @export
 update_chembl_to_drug_names <- function(root_dir, cores = 1) {
   # Load required libraries
   library(webchem)
@@ -1447,7 +1448,7 @@ update_chembl_to_drug_names <- function(root_dir, cores = 1) {
   
   cat("All files have been processed.\n")
 }
-
+#' @export
 update_mondo_to_disease_names <- function(root_dir, cross_ref_file = "mondo_cross_ref/Cross-reference.txt") {
   # Load required libraries
   library(dplyr)
