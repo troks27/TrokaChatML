@@ -47,6 +47,17 @@ perform_communication_analysis <- function(seurat_obj, overall_list, n_permutati
   
   # Initialize a list to store the resulting data frames
   sample_dfs <- list()
+
+  # Helper function to retrieve the counts matrix
+  get_counts_matrix <- function(seurat_obj, assay = "RNA") {
+    # Check if the counts slot exists (Seurat v3/v4)
+    if ("counts" %in% slotNames(seurat_obj@assays[[assay]])) {
+      return(seurat_obj@assays[[assay]]@counts)
+    } else {
+      # Assume Seurat v5: retrieve counts via LayerData()
+      return(LayerData(object = seurat_obj, assay = assay, layer = "counts"))
+    }
+  }
   
   # Iterate over each sample
   for (sample in samples) {
@@ -73,7 +84,8 @@ perform_communication_analysis <- function(seurat_obj, overall_list, n_permutati
       # Proceed with calculations for the current cluster...
       cluster_df <- overall_list[[as.character(cluster)]]
       for (gene in unique(cluster_df$gene)) {
-        expressing_cells <- sum(cluster_subset@assays$RNA@counts[gene, ] > 0)
+        counts_matrix <- get_counts_matrix(cluster_subset, assay = "RNA")
+        expressing_cells <- sum(counts_matrix[gene, ] > 0)
         total_cells <- ncol(cluster_subset)
         pct_expressing <- (expressing_cells / total_cells) * 100
         sample_df <- rbind(sample_df, data.frame(gene = gene, cluster = cluster, pct = pct_expressing, stringsAsFactors = FALSE))
